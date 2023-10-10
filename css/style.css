@@ -19,7 +19,7 @@ img {
 
 @font-face {
   font-family: "Muller";
-  src: local("MullerRegular"), url("/fonts/MullerRegular.woff2") format(woff2);
+  src: local("MullerRegularItalic"), url("/fonts/MullerRegularItalic.woff2") format(woff2);
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -28,6 +28,14 @@ img {
 @font-face {
   font-family: "Muller";
   src: local("MullerMedium"), url("/fonts/MullerMedium.woff2") format(woff2);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("MullerRegular"), url("/fonts/MullerRegular.woff2") format(woff2);
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -56,4 +64,487 @@ body {
 
 .flex {
   display: flex;
+}
+
+.button {
+  padding: 25px 54px 25px 54px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #6D31EE;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.section__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Muller";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #121723;
+}
+
+.hero__text {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Muller";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #121723;
+}
+
+
+/* header */
+
+
+.header__container {
+ padding: 1.8% 21%;
+ align-items: center;
+}
+
+.header__logo {
+margin-right: 80px;
+}
+
+.header__list {
+margin-right: 100px;
+}
+
+.nav__item {
+  margin-right: 58px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav___link {
+
+}
+
+.header__btn {
+background: none;
+padding: 0;
+}
+
+
+/* hero */
+
+.hero__container {
+padding: 4.9% 21.09%;
+}
+
+.hero__left {
+margin-right: 120px;
+}
+
+.hero__title {
+margin-bottom: 14px;
+font-family: "Muller", sans-serif;
+font-size: 60px;
+font-weight: 700;
+line-height: 60px;
+color: #121723;
+}
+
+.hero__heading {
+  font-family: "MullerRegularItalic", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  font-style: italic;
+  color: #121723;
+}
+
+.hero__text {
+ margin-bottom: 45px;
+}
+
+.hero__btn {
+
+}
+
+.hero__right {
+  width: 350px;
+}
+
+.hero__img {
+
+}
+
+
+/* podcast */
+
+.podcast__container {
+
+padding: 4.9% 21.09%;
+}
+
+.podcast__title {
+
+}
+
+.podcast__list {
+
+ gap:var(--gap);
+flex-wrap: wrap;
+}
+
+.podcast__item {
+position: relative;
+width: 540px;
+height: 140px;
+}
+
+.podcast__img {
+
+}
+
+.podcast__date {
+position: absolute;
+right: 489px;
+top: 124px;
+padding: 3px 6px;
+width: 51px;
+font-family: "Muller";
+font-size: 10px;
+font-weight: 400;
+line-height: 10px;
+color: #121723;
+background-color: #E6E8EC;
+}
+
+.podcast__box {
+padding: 40px 30px;
+}
+
+.podcast__time {
+  font-family: "Muller";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #121723;
+}
+
+.podcast__subtitle {
+margin: 0;
+margin-bottom: 5px;
+padding-top: 8px;
+font-family: "Muller";
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+color: #121723;
+}
+
+.podcast__text {
+margin: 0;
+font-family: "Muller";
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+color: #A1A6B4;
+}
+
+
+/* broadcast */
+
+.broadcast__title {
+
+}
+
+.broadcast__left {
+
+}
+
+.broadcast__btn {
+
+}
+
+.broadcast__descr {
+
+}
+
+.broadcast__list {
+
+}
+
+.broadcast__item {
+
+}
+
+.broadcast__content {
+
+}
+
+.broadcast__subtitle {
+
+}
+
+.broadcast__text {
+
+}
+
+.broadcast__link {
+
+}
+
+
+/* guest */
+
+.guest__title {
+
+}
+
+.guest__heading {
+
+}
+
+.guest__text {
+
+}
+
+.guest__list {
+
+}
+
+.guest__item {
+
+}
+
+.guest__img {
+
+}
+
+.guest__subtitle {
+
+}
+
+.guest__descr {
+
+}
+
+.guest__btn {
+
+}
+
+
+/* playlist */
+
+.playlist__container {
+
+}
+
+.playlist__left {
+
+}
+
+.playlist__title {
+
+}
+
+.playlist__text {
+
+}
+
+.playlist__copy {
+
+}
+
+.playlist__list {
+
+}
+
+.playlist__item {
+
+}
+
+.playlist__img {
+
+}
+
+.playlist__svg {
+
+}
+
+.playlist__box {
+
+}
+
+.playlist__subtitle {
+
+}
+
+.playlist__descr {
+
+}
+
+
+/* radio */
+
+.radio__left {
+
+}
+
+.radio__img {
+
+}
+
+.radio__svg {
+
+}
+
+.radio__right {
+
+}
+
+.radio__title {
+
+}
+
+.radio__svg-wave {
+
+}
+
+.radio__text {
+
+}
+
+.radio__price {
+
+}
+
+.radio__btn {
+
+}
+
+
+/* about */
+
+.about__title {
+
+}
+
+.about__box {
+
+}
+
+.about__heading {
+
+}
+
+.about__text {
+
+}
+
+.about__svg {
+
+}
+
+.about__list  {
+
+}
+
+.about__item {
+
+}
+
+.about__img {
+
+}
+
+.about__subtitle {
+
+}
+
+.about__descr {
+
+}
+
+.form-wrapper {
+
+}
+
+.form {
+
+}
+
+.form-textarea {
+
+}
+
+.form-box {
+
+}
+
+.form-input {
+
+}
+
+.form-btn {
+
+}
+
+.form-check {
+
+}
+
+.form-text {
+
+}
+
+
+/* footer */
+
+.footer__left {
+
+}
+
+.footer__logo {
+
+}
+
+.social {
+
+}
+
+.social__item {
+
+}
+
+.social-link {
+
+}
+
+.footer__right {
+
+}
+
+.footer__nav {
+
+}
+
+.footer__list {
+
+}
+
+.nav__item {
+
+}
+
+.nav__link {
+
+}
+
+.footer__box {
+
+}
+
+.footer__text {
+
 }
