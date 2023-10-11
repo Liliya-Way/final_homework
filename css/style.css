@@ -181,8 +181,8 @@ color: #121723;
 /* podcast */
 
 .podcast__container {
-
 padding: 4.9% 21.09%;
+background-color: #E6E8EC;
 }
 
 .podcast__title {
@@ -199,6 +199,7 @@ flex-wrap: wrap;
 position: relative;
 width: 540px;
 height: 140px;
+background-color: #FFFFFF;
 }
 
 .podcast__img {
@@ -254,6 +255,11 @@ color: #A1A6B4;
 
 /* broadcast */
 
+.broadcast__container {
+  flex-direction: row;
+  padding: 6.5% 21.09% 5.5%;
+}
+
 .broadcast__title {
 
 }
@@ -267,31 +273,66 @@ color: #A1A6B4;
 }
 
 .broadcast__descr {
+  font-family: "Muller";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #A1A6B4;
+}
+
+.broadcast__right {
 
 }
 
 .broadcast__list {
-
+ flex-wrap: wrap;
+ gap:var(--gap);
 }
 
 .broadcast__item {
+  font-size: 0;
+  width: 255px;
+}
+
+.broadcast__img {
 
 }
 
 .broadcast__content {
-
+padding: 20px 16px;
+border: 1px solid #E6E8EC;
 }
 
 .broadcast__subtitle {
-
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: "Muller";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #121723;
 }
 
 .broadcast__text {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Muller";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #A1A6B4;
+}
 
+.broadcast__box {
+  align-items: center;
 }
 
 .broadcast__link {
-
+  font-family: "Muller";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #121723;
 }
 
 
