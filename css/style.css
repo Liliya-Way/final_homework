@@ -112,11 +112,11 @@ body {
 }
 
 .header__logo {
-margin-right: 80px;
+margin-right: auto;
 }
 
 .header__list {
-margin-right: 100px;
+margin-right: 208px;
 }
 
 .nav__item {
@@ -140,10 +140,11 @@ padding: 0;
 /* hero */
 
 .hero__container {
-padding: 4.9% 21.09%;
+padding: 4.9% 20%;
 }
 
 .hero__left {
+max-width: 635px;
 margin-right: 120px;
 }
 
@@ -185,7 +186,7 @@ color: var(--color-text);
 /* podcast */
 
 .podcast__container {
-padding: 4.9% 21.09%;
+padding: 4.9% 20%;
 background-color: #E6E8EC;
 }
 
@@ -528,13 +529,14 @@ border: 1px solid #E6E8EC;
 /* radio */
 
 .radio__container {
-  padding: 4.9% 21.09%;
+  padding: 4.9% 21%;
   background-color: #292E39;
 }
 
 .radio__left {
   position: relative;
   margin-right: 30px;
+  width: 640px;
 }
 
 .radio__img {
@@ -543,7 +545,8 @@ border: 1px solid #E6E8EC;
 
 .radio__svg-new {
 position: absolute;
-right: 330px;
+right: 480px;
+width: 160px;
 }
 
 .radio__right {
@@ -585,7 +588,7 @@ width: 445px;
 }
 
 .radio__btn {
-
+  display: flex;
   padding: 25px 20px 25px 8px;
   width: 300px;
   height: 70px;
@@ -599,27 +602,47 @@ width: 445px;
 }
 
 .radio__svg-btn {
-
-padding-right: 8px;
+padding-right: 5px;
 }
 
 
 /* about */
 
-.about__title {
+.about__container {
+  padding: 4.9% 21%;
+  background-color: #121723;
+}
 
+.about__title {
+  color: var(--color-text-white);
 }
 
 .about__box {
+ margin-bottom: 30px;
+}
 
+.about__content {
+flex-direction: column;
+margin-right: 30px;
 }
 
 .about__heading {
-
+  margin: 0;
+  margin-bottom: 8px;
+  font-family: "Muller";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: var(--color-text-light);
 }
 
 .about__text {
-
+  margin: 0;
+  font-family: "Muller";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--color-text-light);
 }
 
 .about__svg {
