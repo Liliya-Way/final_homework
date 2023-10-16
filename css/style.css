@@ -335,6 +335,25 @@ flex-grow: 1;
   font-weight: 500;
   line-height: 16px;
   color: var(--color-text);
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border 0.3s ease-in-out ;
+}
+
+.broadcast__btn:focus {
+background-color: #4F28A5;
+color: #fff;
+border: #4F28A5;
+}
+
+.broadcast__btn:hover {
+background-color: #AA9DFA;
+color: #fff;
+border: #AA9DFA;
+}
+
+.broadcast__btn:active {
+  background-color: #AA9DFA;
+  color: #fff;
+  border: #4F28A5;
 }
 
 .broadcast__descr {
