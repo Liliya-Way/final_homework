@@ -1020,8 +1020,8 @@ background-color:#AA9DFA;
 
 .footer__container {
   padding: 4.9% 21%;
-  background-color:#292E39;
   justify-content: space-between;
+  background-color:#292E39;
 }
 
 .footer__left {
@@ -1136,6 +1136,10 @@ fill: #D2D5DD;
 .footer__box {
   padding-bottom: 10px;
   background-color:#292E39;
+}
+
+.footer__svg {
+  max-width: 100%;
 }
 
 .footer__text {
