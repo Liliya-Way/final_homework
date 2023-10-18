@@ -873,6 +873,22 @@ width: 920px;
   border: 1p solid #FFFFFF;
   border-radius: 30px;
   background: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.form-textarea:focus {
+  background-color: none;
+  color: #FFFFFF;
+}
+
+.form-textarea:hover {
+background-color: #292E39;
+color: #A1A6B4;
+}
+
+.form-textarea:active {
+  background-color: #292E39;
+  color: #A1A6B4;
 }
 
 .form-box {
@@ -887,6 +903,33 @@ gap: var(--gap);
   border: 1px solid #FFFFFF;
   border-radius: 30px;
   background: none;
+}
+
+.form-input:focus {
+  background-color: none;
+  color: #FFFFFF;
+}
+
+.form-input:hover {
+background-color: #292E39;
+color: #A1A6B4;
+}
+
+.form-input:active {
+  background-color: #292E39;
+  color: #A1A6B4;
+}
+
+.form-input:invalid {
+  border: 1px solid #D52B1E;
+}
+
+.form-mistake {
+  display: none;
+}
+
+.form-mistakeJ:invalid {
+  position: absolute;
 }
 
 .form-btn {
@@ -1006,7 +1049,58 @@ background-color:#AA9DFA;
 }
 
 .social-link {
+fill: #D2D5DD;
+}
 
+.social-link-youtube {
+  fill: #D2D5DD;
+  transition: fill 0.3s ease-in-out;
+}
+
+.social-link-youtube:focus {
+  fill: #4F28A5;
+}
+
+.social-link-youtube:hover {
+  fill: #6D31EE;
+}
+
+.social-link-youtube:active {
+  fill: #AA9DFA;
+}
+
+.social-link-ok {
+  fill: #D2D5DD;
+  transition: fill 0.3s ease-in-out;
+}
+
+.social-link-ok:focus {
+  fill: #4F28A5;
+}
+
+.social-link-ok:hover {
+  fill: #6D31EE;
+}
+
+.social-link-ok:active {
+  fill: #AA9DFA;
+}
+
+.social-link-vk {
+  fill: #D2D5DD;
+  transition: fill 0.3s ease-in-out;
+}
+
+.social-link-vk:focus {
+  fill: #4F28A5;
+}
+
+.social-link-vk:hover {
+  fill: #6D31EE;
+}
+
+.social-link-vk:active {
+  fill: #AA9DFA;
 }
 
 .footer__right {
