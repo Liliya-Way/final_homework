@@ -1,0 +1,37 @@
+@media(max-width: 1200px) {
+  .form-input,
+  .form-textaria {
+    width: 100%;
+  }
+
+  .header__container {
+   display: block;
+   position: relative;
+   }
+
+   .header-nav {
+    transform: translateY(30px);
+   }
+
+   .header__list {
+    /* transform: translateY(30px); */
+    margin: 0;
+   }
+
+   /* .header__list::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+
+   } */
+
+   .header__btn {
+    transform: translate(688px, -45px);
+
+   }
+
+  .footer__svg {
+    max-width: 100%;
+  }
+}
