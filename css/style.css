@@ -221,6 +221,10 @@ transition: background-color 0.3s ease-in-out;
 
 .hero__right {
   width: 350px;
+  height: 372px;
+  background-image: url("/img/microphone.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .hero__img {
@@ -252,7 +256,42 @@ background-color: #FFFFFF;
 }
 
 .podcast__img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 112px;
+  height: 140px;
+}
 
+.podcast__img_1 {
+background-image: url("/img/img_1.jpg");
+}
+
+.podcast__img_2 {
+  background-image: url("/img/img_2.jpg");
+}
+
+.podcast__img_3 {
+  background-image: url("/img/img_3.jpg");
+}
+
+.podcast__img_4 {
+  background-image: url("/img/img_4.jpg");
+}
+
+.podcast__img_5 {
+  background-image: url("/img/img_5.jpg");
+}
+
+.podcast__img_6 {
+  background-image: url("/img/img_6.jpg");
+}
+
+.podcast__img_7 {
+  background-image: url("/img/img_7.jpg");
+}
+
+.podcast__img_8 {
+  background-image: url("/img/img_8.jpg");
 }
 
 .podcast__date {
@@ -381,7 +420,34 @@ border: #AA9DFA;
 }
 
 .broadcast__img {
+background-repeat: no-repeat;
+background-size: contain;
+width: 255px;
+height: 148px;
+}
 
+.broadcast__img_1 {
+  background-image: url("/img/pic_1.jpg");
+}
+
+.broadcast__img_2 {
+  background-image: url("/img/pic_2.jpg");
+}
+
+.broadcast__img_3 {
+  background-image: url("/img/pic_3.jpg");
+}
+
+.broadcast__img_4 {
+  background-image: url("/img/pic_4.jpg");
+}
+
+.broadcast__img_5 {
+  background-image: url("/img/pic_5.jpg");
+}
+
+.broadcast__img_6 {
+  background-image: url("/img/pic_6.jpg");
 }
 
 .broadcast__content {
