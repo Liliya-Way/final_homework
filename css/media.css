@@ -5,17 +5,22 @@
   }
 
   .header__container {
-   display: block;
-   position: relative;
+    flex-direction: column;
+   }
+
+   .header__logo {
+    order: 1;
    }
 
    .header-nav {
-    transform: translateY(30px);
+    /* transform: translateY(30px); */
+    order: 3;
    }
 
    .header__list {
     /* transform: translateY(30px); */
     margin: 0;
+
    }
 
    /* .header__list::before {
@@ -27,7 +32,11 @@
    } */
 
    .header__btn {
-    transform: translate(688px, -45px);
+    /* transform: translate(688px, -45px); */
+    order: 2;
+   }
+
+   .hero__left {
 
    }
 

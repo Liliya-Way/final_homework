@@ -176,7 +176,8 @@ padding: 4.9% 20%;
 
 .hero__left {
 max-width: 635px;
-margin-right: 120px;
+/* margin-right: 120px; */
+margin-right: auto;
 }
 
 .hero__title {
@@ -263,7 +264,7 @@ background-color: #FFFFFF;
 }
 
 .podcast__img_1 {
-background-image: url("/img/img_1.jpg");
+  background-image: url("/img/img_1.jpg");
 }
 
 .podcast__img_2 {
