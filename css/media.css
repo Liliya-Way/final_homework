@@ -8,19 +8,21 @@
     flex-wrap: wrap;
     padding: 0;
     padding-top: 33px;
-    padding-right: 100px;
-    padding-left: 100px;
+    /* padding-right: 100px;
+    padding-left: 100px; */
    }
 
    .header__logo {
     order: 1;
     padding-bottom: 33px;
     width: 112px;
+    margin-left: 100px;
    }
 
    .header-nav {
     order: 3;
     padding: 22px 100px;
+    /* padding: 22px 0; */
     border: 1px solid #E6E8EC;
    }
 
@@ -34,6 +36,7 @@
    .header__btn {
     order: 2;
     padding-bottom: 33px;
+    margin-right: 100px;
    }
    .hero__left {
 
