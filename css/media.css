@@ -5,37 +5,36 @@
   }
 
   .header__container {
-    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-top: 33px;
+    padding-right: 100px;
+    padding-left: 100px;
    }
 
    .header__logo {
     order: 1;
+    padding-bottom: 33px;
+    width: 112px;
    }
 
    .header-nav {
-    /* transform: translateY(30px); */
     order: 3;
+    padding: 22px 100px;
+    border: 1px solid #E6E8EC;
    }
 
    .header__list {
-    /* transform: translateY(30px); */
     margin: 0;
-
    }
-
-   /* .header__list::before {
-   content: "";
-   position: absolute;
-   top: 0;
-   left: 0;
-
-   } */
+   .nav__item:not(:last-child) {
+    margin-right: 106px;
+  }
 
    .header__btn {
-    /* transform: translate(688px, -45px); */
     order: 2;
+    padding-bottom: 33px;
    }
-
    .hero__left {
 
    }
