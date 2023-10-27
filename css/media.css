@@ -1,48 +1,297 @@
-@media(max-width: 1200px) {
-  .form-input,
-  .form-textaria {
-    width: 100%;
-  }
+@media(max-width: 1024px) {
+
+  /* header */
 
   .header__container {
     flex-wrap: wrap;
     padding: 0;
     padding-top: 33px;
-    /* padding-right: 100px;
-    padding-left: 100px; */
    }
 
    .header__logo {
     order: 1;
     padding-bottom: 33px;
+    padding-right: 0;
+    margin-left: 102px;
+    margin-right: auto;
     width: 112px;
-    margin-left: 100px;
    }
 
    .header-nav {
     order: 3;
-    padding: 22px 100px;
-    /* padding: 22px 0; */
+    padding: 2.14% 9.76%;
+    margin-right: 0;
     border: 1px solid #E6E8EC;
+    max-width: 1024px;
+    width: 100%;
    }
 
    .header__list {
     margin: 0;
+    padding-right: 0;
+    max-width: 824px;
+    width: 100%;
    }
+
    .nav__item:not(:last-child) {
-    margin-right: 106px;
+    margin: 0;
+    /* margin-right: 105px; */
+    margin-right: 12.3%;
   }
 
    .header__btn {
     order: 2;
     padding-bottom: 33px;
-    margin-right: 100px;
+    padding-right: 11%;
    }
-   .hero__left {
 
+
+   /* hero */
+
+   .hero__container {
+    padding: 9.2% 0;
+    max-width: 824px;
+    width: 100%;
+    }
+
+   .hero__left {
+      max-width: 540px;
    }
+
+   .hero__right {
+    max-width: 256px;
+    min-height: 262px;
+  }
+
+
+   /* podcast */
+
+.podcast__container {
+  padding: 9.2% 0;
+  max-width: 824px;
+  width: 100%;
+  }
+
+  .podcast__item {
+    position: relative;
+    width: 396px;
+    height: 140px;
+    }
+
+  .podcast__date {
+    position: absolute;
+    right: 345px;
+    top: 124px;
+    padding: 3px 6px;
+    }
+
+
+   /* broadcast */
+
+   .broadcast__container {
+    padding: 9.2% 0;
+    max-width: 824px;
+    width: 100%;
+  }
+
+  .broadcast__list {
+    width: 540px;
+  }
+
+
+   /* guest */
+
+   .guest__container {
+    padding: 9.2% 0;
+    max-width: 824px;
+    width: 100%;
+  }
+
+  .guest__text {
+    max-width: 536px;
+  }
+
+
+   /* playlist */
+
+   .playlist__container {
+    flex-direction: column;
+    padding: 9.2% 0;
+    max-width: 854px;
+    width: 100%;
+  }
+
+  .playlist__left {
+    margin-right: 0;
+    margin-bottom: 30px;
+    }
+
+  .playlist__item {
+    display: flex;
+    width: 255px;
+    }
+
+  .playlist__img {
+    position: relative;
+    width: 112px;
+    }
+
+  .playlist__box {
+    padding: 40px 10px 40px 10px;
+    width: 143px;
+    }
+
+  .playlist__svg {
+     position: absolute;
+      left: 0px;
+    }
+
+
+   /* radio */
+
+   .radio__container {
+    padding: 9.2% 0;
+    max-width: 824px;
+    width: 100%;
+  }
+
+  .radio__left {
+    max-width: 397px;
+  }
+
+   .radio__img {
+    max-width: 397px;
+  }
+
+   .radio__svg-new {
+    width: 100px;
+    height: 100px;
+    }
+
+
+   /* about */
+
+   .about__container {
+    padding: 9.2% 0;
+    max-width: 824px;
+    width: 100%;
+  }
+
+  .about__svg {
+    background-image: url("/img/snowflake.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 255px;
+    height: 255px;
+    }
+
+   .about__list  {
+    flex-wrap: wrap;
+    }
+
+  .about__img {
+    margin-bottom: 30px;
+    width: 397px;
+    height: 255px;
+    }
+
+
+  /* footer */
+
+  .footer__container {
+    padding: 9.2% 0;
+    max-width: 824px;
+    width: 100%;
+  }
 
   .footer__svg {
-    max-width: 100%;
+    width: 100%;
   }
+
+}
+
+@media(max-width: 768px) {
+
+  /* header */
+
+  .header__container {
+
+   }
+
+   .header__logo {
+    margin-left: 15%;
+   }
+
+   .header-nav {
+    padding-right: 15%;
+    padding-left: 15%;
+    max-width: 768px;
+    width: 100%;
+   }
+
+   .header__list {
+
+   }
+
+   .nav__item:not(:last-child) {
+    margin-right: 33px;
+  }
+
+  .header__btn {
+    padding-right: 15%;
+   }
+
+  /* hero */
+
+  .hero__container {
+    flex-direction: column;
+    padding: 12.2% 0;
+    max-width: 540px;
+    width: 100%;
+    }
+
+  .hero__left {
+    /* margin-left: 115px; */
+    }
+
+
+  .hero__right {
+    display: none;
+    background-image: none;
+  }
+
+  /* podcast */
+
+  .podcast__container {
+    padding: 12.2% 0;
+    margin: 0 auto;
+    max-width: 540px;
+    width: 100%;
+    }
+
+    .podcast__item {
+      width: 540px;
+      height: 140px;
+      }
+
+    .podcast__date {
+      right: 489px;
+      top: 124px;
+      }
+
+  /* broadcast */
+
+  /* guest */
+
+  /* playlist */
+
+  /* radio */
+
+  /* about */
+
+  /* footer */
+}
+
+@media(max-width: 296px) {
+
 }
