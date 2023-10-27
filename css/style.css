@@ -107,20 +107,29 @@ body {
 
 
 .header__container {
- padding: 1.8% 21%;
- align-items: center;
+  align-items: center;
+  padding: 1.8% 0;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
 }
 
 .header__logo {
-margin-right: auto;
+  flex-shrink: 0;
+  margin-right: auto;
+  padding-right: 3.6%;
+}
+
+.header-nav {
+  margin-right: 11%;
 }
 
 .header__list {
-margin-right: 208px;
+
 }
 
 .nav__item {
-
+  /* flex-shrink: 0; */
 }
 
 .nav__item:not(:last-child) {
@@ -153,8 +162,8 @@ transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .header__btn {
-background: none;
 padding: 0;
+background: none;
 stroke: #6D31EE;
 transition: stroke 0.3s ease-in-out;
 }
@@ -176,12 +185,15 @@ stroke: #AA9DFA;
 /* hero */
 
 .hero__container {
-padding: 4.9% 20%;
+  padding: 4.9% 0;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
 }
 
 .hero__left {
 max-width: 635px;
-/* margin-right: 120px; */
+width: 100%;
 margin-right: auto;
 }
 
@@ -240,9 +252,15 @@ transition: background-color 0.3s ease-in-out;
 
 /* podcast */
 
+.podcast {
+  background-color: #E6E8EC;
+}
+
 .podcast__container {
-padding: 4.9% 20%;
-background-color: #E6E8EC;
+padding: 4.9% 0;
+margin: 0 auto;
+max-width: 1110px;
+width: 100%;
 }
 
 .podcast__title {
@@ -251,7 +269,7 @@ background-color: #E6E8EC;
 
 .podcast__list {
  gap:var(--gap);
-flex-wrap: wrap;
+ flex-wrap: wrap;
 }
 
 .podcast__item {
@@ -351,7 +369,10 @@ color: var(--color-text-light);
 
 .broadcast__container {
   flex-direction: row;
-  padding: 6.5% 21.09% 5.5%;
+  padding: 6.5% 0 5.5%;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
 }
 
 .broadcast__left {
@@ -552,9 +573,15 @@ border: 1px solid #E6E8EC;
 
 /* guest */
 
-.guest__container {
-  padding: 4.9% 21.09%;
+.guest {
   background-color: #121723;
+}
+
+.guest__container {
+  padding: 4.9% 0;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
 }
 
 .guest__title {
@@ -653,12 +680,14 @@ color: var(--color-text-white);
 /* playlist */
 
 .playlist__container {
-  padding: 4.9% 21.09%;
+  padding: 4.9% 0;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
 }
 
 .playlist__left {
 margin-right: 30px;
-/* width: 350px; */
 }
 
 .playlist__title {
@@ -736,24 +765,30 @@ border: 1px solid #E6E8EC;
 
 /* radio */
 
-.radio__container {
-  padding: 4.9% 21%;
+.radio {
   background-color: #292E39;
+}
+
+.radio__container {
+  padding: 4.9% 0;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
 }
 
 .radio__left {
   position: relative;
   margin-right: 30px;
-  width: 640px;
+  max-width: 640px;
 }
 
 .radio__img {
-
+  max-width: 640px;
 }
 
 .radio__svg-new {
 position: absolute;
-right: 480px;
+left: 0;
 width: 160px;
 }
 
@@ -773,6 +808,7 @@ width: 445px;
 
 .radio__svg-wave {
   margin-bottom: 20px;
+  max-width: 100%;
 }
 
 .radio__text {
@@ -861,9 +897,15 @@ fill: #121723;
 
 /* about */
 
-.about__container {
-  padding: 4.9% 21%;
+.about {
   background-color: #121723;
+}
+
+.about__container {
+  padding: 4.9% 0;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
 }
 
 .about__title {
@@ -877,6 +919,8 @@ fill: #121723;
 .about__content {
 flex-direction: column;
 margin-right: 30px;
+max-width: 630px;
+width: 100%;
 }
 
 .about__heading {
@@ -899,7 +943,12 @@ margin-right: 30px;
 }
 
 .about__svg {
-
+background-image: url("/img/spiral.svg");
+background-repeat: no-repeat;
+background-size: cover;
+max-width: 445px;
+width: 100%;
+height: 290px;
 }
 
 .about__list  {
@@ -937,7 +986,7 @@ height: 255px;
 }
 
 .form-wrapper {
-width: 920px;
+  max-width: 920px;
 }
 
 .form {
@@ -947,7 +996,8 @@ width: 920px;
 .form-textarea {
   margin-bottom: 30px;
   padding: 30px 32px 100px;
-  width: 920px;
+  max-width: 920px;
+  width: 100%;
   height: 150px;
   border: 1p solid #FFFFFF;
   border-radius: 30px;
@@ -1113,10 +1163,16 @@ background-color:#AA9DFA;
 
 /* footer */
 
-.footer__container {
-  padding: 4.9% 21%;
-  justify-content: space-between;
+.footer {
   background-color:#292E39;
+}
+
+.footer__container {
+  justify-content: space-between;
+  padding: 4.9% 0;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
 }
 
 .footer__left {
@@ -1215,12 +1271,11 @@ fill: #D2D5DD;
   width: 445px;
 }
 
-.nav__item {
+.footer__item {
   margin: 0;
-
 }
 
-.nav__link {
+.footer__link {
   margin: 0;
   font-size: 16px;
   font-weight: 400;
