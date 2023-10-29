@@ -281,6 +281,38 @@
 
   /* broadcast */
 
+  .broadcast__container {
+
+    flex-direction: column-reverse;
+    padding: 12.2% 0;
+    margin: 0;
+    /* max-width: 540px; */
+    width: 100%;
+  }
+
+  .broadcast__left {
+    display: block;
+    margin: 0;
+    border-top: 1px solid #E6E8EC;
+  }
+
+  .broadcast__right {
+    margin: 0 auto;
+  }
+
+  .broadcast__list {
+    margin-bottom: 30px;
+    width: 540px;
+  }
+
+  .broadcast__title {
+    flex-grow: 0;
+    position: relative;
+    bottom: 935px;
+    left: 115px;
+    }
+
+
   /* guest */
 
   /* playlist */
@@ -290,6 +322,21 @@
   /* about */
 
   /* footer */
+
+  .footer__container {
+    padding: 12.2% 0;
+    max-width: 768px;
+    max-width: 100%;
+  }
+
+  .footer__svg {
+    width: 100%;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+
 }
 
 @media(max-width: 296px) {
