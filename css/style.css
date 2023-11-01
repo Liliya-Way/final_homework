@@ -163,6 +163,8 @@ transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 
 .header__btn {
 padding: 0;
+width: 24px;
+height: 24px;
 background: none;
 stroke: #6D31EE;
 transition: stroke 0.3s ease-in-out;
@@ -179,6 +181,10 @@ stroke: #AA9DFA;
 .header__btn:active {
   stroke: #AA9DFA;
   transition: stroke 0.3s ease-in-out;
+}
+
+.burger {
+  display: none;
 }
 
 
@@ -286,11 +292,11 @@ background-color: #FFFFFF;
   height: 140px;
 }
 
-.podcast__img_1 {
+/* .podcast__img_1 {
   background-image: url("/img/img_1.jpg");
-}
+} */
 
-.podcast__img_2 {
+/* .podcast__img_2 {
   background-image: url("/img/img_2.jpg");
 }
 
@@ -316,7 +322,7 @@ background-color: #FFFFFF;
 
 .podcast__img_8 {
   background-image: url("/img/img_8.jpg");
-}
+} */
 
 .podcast__date {
 position: absolute;
@@ -452,8 +458,8 @@ border: #AA9DFA;
 
 .broadcast__img {
 background-repeat: no-repeat;
-background-size: contain;
-width: 255px;
+background-size: cover;
+max-width: 255px;
 height: 148px;
 }
 
