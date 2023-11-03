@@ -146,7 +146,7 @@ body {
 }
 
 .nav___link:focus {
-background-color: none;
+background: none;
 color: #4F28A5;
 }
 
@@ -533,7 +533,7 @@ border: 1px solid #E6E8EC;
 }
 
 .broadcast__link:focus {
-  background-color: none;
+  background: none;
   color: #4F28A5;
   }
 
@@ -566,7 +566,7 @@ border: 1px solid #E6E8EC;
   }
 
   .broadcast__svg:focus {
-    background-color: none;
+    background: none;
     fill: #4F28A5;
     }
 
@@ -737,10 +737,6 @@ gap:var(--gap);
 position: relative;
 width: 160px;
 font-size: 0;
-}
-
-.playlist__img {
-
 }
 
 .playlist__svg {
@@ -1009,14 +1005,14 @@ font-size: 0;
   max-width: 920px;
   width: 100%;
   height: 150px;
-  border: 1p solid #FFFFFF;
+  border: 1px solid #FFFFFF;
   border-radius: 30px;
   background: none;
   transition: background-color 0.3s ease-in-out;
 }
 
 .form-textarea:focus {
-  background-color: none;
+  background: none;
   color: #FFFFFF;
 }
 
@@ -1045,7 +1041,7 @@ gap: var(--gap);
 }
 
 .form-input:focus {
-  background-color: none;
+  background: none;
   color: #FFFFFF;
 }
 
@@ -1268,14 +1264,6 @@ fill: #D2D5DD;
 
 .social-link-vk:active {
   fill: #AA9DFA;
-}
-
-.footer__right {
-
-}
-
-.footer__nav {
-
 }
 
 .footer__list {
